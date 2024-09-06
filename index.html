@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>Em busca da cidade perdida</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="img/cenario-passo0.png" alt="">
+            <img src="cenario-passo0.png" alt="">
+            <p> Enquanto explorava uma antiga livraria em sua cidade, você encontrou um mapa misterioso escondido entre as páginas de um livro empoeirado. O mapa leva a uma ilha esquecida, perdida no tempo e cheia de segredos. Decidido a descobrir os mistérios dessa ilha, você resolve seguir as pistas do mapa.</p>
+            <button class="btn-proximo" data-proximo="1">Ir para a Ilha Deserta</button>
+            <button class="btn-proximo" data-proximo="2">Ir para a Floresta Amazônica</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>Você decide que a primeira pista está em uma ilha deserta. Você pega um barco e navega até lá, chegando à noite. A lua cheia ilumina as ruínas de uma civilização antiga.</p>
+            <button class="btn-proximo" data-proximo="3">Explorar as Ruínas</button>
+            <button class="btn-proximo" data-proximo="4">Desistir e voltar para casa</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>O mapa também indica uma possível pista na Floresta Amazônica. Você embarca em uma jornada para o coração da floresta, onde os sons da natureza se misturam com o mistério do que você pode encontrar.</p>
+            <button class="btn-proximo" data-proximo="5">Seguir a Trilha do Rio</button>
+            <button class="btn-proximo" data-proximo="6">Explorar a Mata Fechada</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <p>Ao explorar as ruínas, você encontra inscrições antigas que parecem indicar a localização de um tesouro. Mas você também nota que não está sozinho; sombras se movem ao seu redor.</p>
+            <button class="btn-proximo" data-proximo="7">Seguir para o Triangulo perdido</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <img src="img/cenario-passo4.png" alt="imagem voltando para casa e desitindo da aventura">
+            <p>Você decide que a aventura é grande demais e volta para casa, mas sempre se pergunta o que teria
+                encontrado.</p>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <p>Seguindo uma trilha ao longo do rio, você encontra uma tribo indígena que guarda segredos antigos e é a chave para a próxima pista.</p>
+            <button class="btn-proximo" data-proximo="7">Seguir para o Triangulo perdido</button>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <p>Você decide se aventurar na mata fechada, onde encontra um templo escondido entre as árvores. O templo parece ter pistas sobre o mistério da ilha.</p>
+            <button class="btn-proximo" data-proximo="8">Voltar e seguir a Trilha do Rio</button>
+        </div>
+
+        <div class="passo" id="passo-7">
+            <p>No centro do Triângulo Perdido, você finalmente encontra a ilha perdida mencionada no mapa. No entanto, a entrada para o verdadeiro segredo da ilha está bloqueada por um enigma que deve ser resolvido. Você percebe que todas as pistas que coletou até agora foram preparando você para este momento.</p>
+            <button class="btn-proximo" data-proximo="9">Seguir pelo desfiladeiro à esquerda</button>
+            <button class="btn-proximo" data-proximo="10">Seguir pela floresta densa à direita</button>
+        </div>
+
+        <div class="passo" id="passo-8">
+            <p>Após desvendar as pistas voce descobre o caminho para um local misterioso no Oceano Pacífico, conhecido como o "Triângulo Perdido".</p>
+            <button class="btn-proximo" data-proximo="7">Seguir para o Triangulo perdido</button>
+        </div>
+
+        <div class="passo" id="passo-9">
+            <p>Você decide seguir pelo desfiladeiro à esquerda. O caminho é estreito e perigoso, com pedras soltas e penhascos íngremes. No entanto, após algumas horas de caminhada, você encontra uma antiga torre de vigia escondida nas montanhas. Dentro, há mapas antigos e artefatos que apontam para um templo perdido, onde dizem que o segredo final está guardado.</p>
+            <button class="btn-proximo" data-proximo="11">Explorar o templo perdido</button>
+        </div>
+
+        <div class="passo" id="passo-10">
+            <p>Escolhendo o caminho pela floresta densa à direita, você enfrenta uma jornada difícil através de vegetação espessa e terreno traiçoeiro. Depois de muito esforço, você chega a um lago cristalino no coração da floresta. No entanto, apesar da beleza do lugar, não há sinais de ruínas ou segredos antigos. Você se pergunta se essa escolha foi a mais sábia.</p>
+            <button class="btn-proximo" data-proximo="12">Retornar e tentar o caminho pelo desfiladeiro</button>
+        </div>
+
+        <div class="passo" id="passo-11">
+            <img src="img/cenario-passo11.png" alt="encontrando uma cidade maravilhosa perdida no Amazonas">
+            <p>Seguindo as indicações do mapa encontrado na torre de vigia, você finalmente chega ao templo perdido, oculto por vegetação e protegido por armadilhas antigas. No interior do templo, você encontra câmaras repletas de tesouros arqueológicos e documentos que revelam verdades sobre civilizações antigas, há muito esquecidas. Sua descoberta é histórica e de valor inestimável.</p>
+        </div>
+
+        <div class="passo" id="passo-12">
+            <img src="img/cenario-passo12.png"> 
+            <p>Percebendo que o lago não leva a lugar algum, você retorna e decide tentar o caminho pelo desfiladeiro à esquerda. A caminhada é difícil, mas sua determinação é recompensada quando você encontra a torre de vigia. Os mapas e artefatos encontrados ali o conduzem ao templo perdido, onde você finalmente desvenda o segredo que tanto procurava.</p>
+            <button class="btn-proximo" data-proximo="11">Explorar o templo perdido</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
